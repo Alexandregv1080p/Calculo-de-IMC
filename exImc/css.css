@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkcyan;
+    font-family: 'Open sans', sans-serif;
+}
+#space-blank{
+    width: 490px;
+    height: 620px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    width: 10px;
+}
+ul h3{
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+}
+
+.content {
+    position: static;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.content ul{
+    position: static;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 120px;
+}
+.content ul li{
+    padding-top: 3px;
+}
+.content ul h2{
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+#calcula{
+    position: relative;
+    width: 40vw;
+    padding: 15px;
+}
+form{
+    padding: 10px;
+    width: 100%;
+    padding-right: 70px;
+    margin-right: 50px;
+}
+input{
+    width: 80%;
+}
+input, label{
+    display: block;
+    padding: 10px;
+}
+#button{
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+#button:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+#button:focus{
+   background-color: aqua;
+}
+.paragrafo-resultado{
+    background-color:  aquamarine;
+    width: 80%;
+}
+.erro{
+    background-color: rgb(231, 49, 49);
+    width: 80%;
+}
+#resultado{
+    padding-left: 17px;
+}
+@media screen and (max-width: 600px){
+    .content{
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 700px){
+    .content{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 800px){
+    .content{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 980px){
+    .content{
+        width: 600px
+    }
+}
