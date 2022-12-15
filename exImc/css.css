@@ -34,9 +34,6 @@ ul {
     position: static;
     width: 45vw;
     display: flex;
-    align-items: center;
-    justify-content:center;
-    
 }
 .content ul{
     position: static;
@@ -63,14 +60,14 @@ form{
     margin-right: 50px;
 }
 input{
-    width: 80%;
+    width: 380px;
 }
 input, label{
     display: block;
     padding: 10px;
 }
 #button{
-    width: 85%;
+    width: 430px;
     margin-top: 20px;
     margin-left: 2px;
     background-color: darkcyan;
